@@ -8,7 +8,9 @@ for (int i = 0; i < count; i++)
     array[i] = Console.ReadLine()!;
 }
 
-
+Console.WriteLine(String.Join(" | ", array));
+Console.WriteLine();
+Console.WriteLine(String.Join(" | ", ArraySort(array)));
 
 string[] ArraySort(string[] arr)
 {
